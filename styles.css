@@ -1,0 +1,63 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    display: flex;
+    line-height: 1.3rem;
+}
+
+nav {
+    display: block;
+    width: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+header {
+    text-align: center;
+}
+
+.navbar-header {
+    font-size: 1.5em;
+    margin: 10px 0 10px 10px;
+    text-align: left;
+    line-height: 130%;
+}
+
+
+.nav-link {
+    display: block;
+    position: relative;
+}
+
+a {
+    padding: 5%;
+}
+
+main {
+    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.main-section {
+    margin-bottom: 5%;
+}
+
+header {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+code {
+    display: block;
+    background-color: #F5F5F5;
+}
